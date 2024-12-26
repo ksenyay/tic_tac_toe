@@ -8,6 +8,24 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <h1>Tic Tac Toe</h1>
+    <div id="display"><p><span id="player-one-name">Player 1</span> - X</p><p><span id="player-two-name">Player 2</span> - 0</p></div>
+    <div id="container">
+ 
+    </div>
+    <div class="button-container">
+        <button id="start-button">Start Game</button>
+        <button id="reset-button">Reset Game</button>
+    </div>
+    <dialog>
+        <form action="">
+            <label for="player-one">Player 1</label>
+            <input type="text" id="player-one" placeholder="Name" name="player_one_name"><br>
+            <label for="player-two">Player 2</label>
+            <input type="text" id="player-two" placeholder="Name" name="player_two_name"><br>
+            <button type="submit" id="confirm">Confirm</button>
+        </form>
+    </dialog>
+    <div id="message"></div>
 </body>
 </html>
